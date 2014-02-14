@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>C9562E7A-BEEE-4E39-B934-FC1DD08A33EF</string>
+	<key>IDESourceControlProjectName</key>
+	<string>LeftvsRight</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>4431D696-8E1A-4FDB-A4ED-7950FF104267</key>
+		<string>ssh://github.com/Collinm123/iOS.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>LeftvsRight.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>4431D696-8E1A-4FDB-A4ED-7950FF104267</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/Collinm123/iOS.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>4431D696-8E1A-4FDB-A4ED-7950FF104267</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>4431D696-8E1A-4FDB-A4ED-7950FF104267</string>
+			<key>IDESourceControlWCCName</key>
+			<string>LeftvsRight</string>
+		</dict>
+	</array>
+</dict>
+</plist>
