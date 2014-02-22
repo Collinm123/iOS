@@ -14,13 +14,14 @@
 		947D1FFE18AD8073001D9597 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 947D1FFD18AD8073001D9597 /* main.m */; };
 		947D200218AD8073001D9597 /* CNMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 947D200118AD8073001D9597 /* CNMAppDelegate.m */; };
 		947D200518AD8073001D9597 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 947D200318AD8073001D9597 /* Main.storyboard */; };
-		947D200818AD8073001D9597 /* CNMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 947D200718AD8073001D9597 /* CNMViewController.m */; };
+		947D200818AD8073001D9597 /* CNMFortunesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 947D200718AD8073001D9597 /* CNMFortunesViewController.m */; };
 		947D200A18AD8073001D9597 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 947D200918AD8073001D9597 /* Images.xcassets */; };
 		947D201118AD8073001D9597 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 947D201018AD8073001D9597 /* XCTest.framework */; };
 		947D201218AD8073001D9597 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 947D1FF118AD8073001D9597 /* Foundation.framework */; };
 		947D201318AD8073001D9597 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 947D1FF518AD8073001D9597 /* UIKit.framework */; };
 		947D201B18AD8073001D9597 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 947D201918AD8073001D9597 /* InfoPlist.strings */; };
 		947D201D18AD8073001D9597 /* iFortunesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 947D201C18AD8073001D9597 /* iFortunesTests.m */; };
+		94A2B4DC18B48E7200B83DD5 /* CNMFortunesModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 94A2B4DB18B48E7200B83DD5 /* CNMFortunesModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +46,16 @@
 		947D200018AD8073001D9597 /* CNMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CNMAppDelegate.h; sourceTree = "<group>"; };
 		947D200118AD8073001D9597 /* CNMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CNMAppDelegate.m; sourceTree = "<group>"; };
 		947D200418AD8073001D9597 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		947D200618AD8073001D9597 /* CNMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CNMViewController.h; sourceTree = "<group>"; };
-		947D200718AD8073001D9597 /* CNMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CNMViewController.m; sourceTree = "<group>"; };
+		947D200618AD8073001D9597 /* CNMFortunesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CNMFortunesViewController.h; sourceTree = "<group>"; };
+		947D200718AD8073001D9597 /* CNMFortunesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CNMFortunesViewController.m; sourceTree = "<group>"; };
 		947D200918AD8073001D9597 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		947D200F18AD8073001D9597 /* iFortunesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iFortunesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		947D201018AD8073001D9597 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		947D201818AD8073001D9597 /* iFortunesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iFortunesTests-Info.plist"; sourceTree = "<group>"; };
 		947D201A18AD8073001D9597 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		947D201C18AD8073001D9597 /* iFortunesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iFortunesTests.m; sourceTree = "<group>"; };
+		94A2B4DA18B48E7200B83DD5 /* CNMFortunesModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CNMFortunesModel.h; sourceTree = "<group>"; };
+		94A2B4DB18B48E7200B83DD5 /* CNMFortunesModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CNMFortunesModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +118,10 @@
 				947D200018AD8073001D9597 /* CNMAppDelegate.h */,
 				947D200118AD8073001D9597 /* CNMAppDelegate.m */,
 				947D200318AD8073001D9597 /* Main.storyboard */,
-				947D200618AD8073001D9597 /* CNMViewController.h */,
-				947D200718AD8073001D9597 /* CNMViewController.m */,
+				94A2B4DA18B48E7200B83DD5 /* CNMFortunesModel.h */,
+				94A2B4DB18B48E7200B83DD5 /* CNMFortunesModel.m */,
+				947D200618AD8073001D9597 /* CNMFortunesViewController.h */,
+				947D200718AD8073001D9597 /* CNMFortunesViewController.m */,
 				947D200918AD8073001D9597 /* Images.xcassets */,
 				947D1FF818AD8073001D9597 /* Supporting Files */,
 			);
@@ -252,7 +257,8 @@
 			files = (
 				947D1FFE18AD8073001D9597 /* main.m in Sources */,
 				947D200218AD8073001D9597 /* CNMAppDelegate.m in Sources */,
-				947D200818AD8073001D9597 /* CNMViewController.m in Sources */,
+				94A2B4DC18B48E7200B83DD5 /* CNMFortunesModel.m in Sources */,
+				947D200818AD8073001D9597 /* CNMFortunesViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -461,6 +467,7 @@
 				947D202218AD8073001D9597 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		947D202318AD8073001D9597 /* Build configuration list for PBXNativeTarget "iFortunesTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +476,7 @@
 				947D202518AD8073001D9597 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

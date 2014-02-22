@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CNMFortunesModel.h"
 
-@interface CNMViewController : UIViewController
+@interface CNMFortunesViewController : UIViewController
+@property (strong, nonatomic) IBOutlet UILabel *answerLabel;
+
 
 @end
